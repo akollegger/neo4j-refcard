@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/refcard.css">
 
 	<!-- Favicons
 	================================================== -->
@@ -31,6 +32,14 @@
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	<!-- Highlight.js -->
+	<script type="text/javascript" src="highlight/highlight.pack.js"></script>
+	<script type="text/javascript">
+	    hljs.initHighlightingOnLoad();
+    </script>
+    <link rel="stylesheet" href="highlight/styles/github.css">
+	
 
 </head>
 <body>
@@ -52,15 +61,28 @@
 			<h3>About Skeleton?</h3>
 			<p>Skeleton is a small collection of well-organized CSS &amp; JS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, tabs, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
 			<table>
-			<tr>
-			<td>Andreas</td>
-			<td>Michael</td>
-			</tr>
-			<tr>
-			<td>Andreas</td>
-			<td>Michael</td>
-			</tr>
+				<thead>
+					<td>Name</td>
+					<td>Name</td>
+				</thead>
+				<tr>
+					<td>Andreas</td>
+					<td>Michael</td>
+				</tr>
+				<tr>
+					<td>Andreas</td>
+					<td>Michael</td>
+				</tr>
 			</table>
+			
+			<pre>
+				<code class="java">
+				package org.neo4j;
+				
+				public class Foo {
+				}
+				</code>
+			</pre>
 		</div>
 		<div class="eight columns">
 			<h3>Three Core Principles</h3>
@@ -71,6 +93,7 @@
 				<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
 			</ul>
 		</div>
+
 
 	</div><!-- container -->
 

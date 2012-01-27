@@ -1,0 +1,34 @@
+/*
+* Neo4j Refcard V0.1
+* Copyright 2011, Neo Technology
+* www.neo4j.org
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+
+/* Overrides of base.css, layout.css and skeleton.css
+=====================================================
+ */
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+tr {
+	border-top: 1px solid #5e797f;
+}
+
+td {
+	padding: 12px 8px;
+}
+
+thead {
+	background-color: #5e797f;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
