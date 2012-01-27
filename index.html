@@ -8,9 +8,9 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Your Page Title Here :)</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<title>Neo4j Refcard</title>
+	<meta name="description" content="Getting started with Neo4j">
+	<meta name="author" content="Andreas Kollegger, Michael Hunger">
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -21,10 +21,10 @@
 
 	<!-- CSS
   ================================================== -->
+	<link rel="stylesheet" href="stylesheets/fonts.css">
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
-	<link rel="stylesheet" href="stylesheets/refcard.css">
 
 	<!-- Favicons
 	================================================== -->
@@ -33,27 +33,21 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 	
-	<!-- Highlight.js -->
-	<script type="text/javascript" src="highlight/highlight.pack.js"></script>
-	<script type="text/javascript">
-	    hljs.initHighlightingOnLoad();
-    </script>
+	<!-- Refcard -->
     <link rel="stylesheet" href="highlight/styles/github.css">
-	
+	<link rel="stylesheet" href="stylesheets/refcard.css">
 
 </head>
 <body>
 
 
 
-	<!-- Primary Page Layout
+	<!-- Page One
 	================================================== -->
 
-	<!-- Delete everything in this .container and get started on your own site! -->
-
-	<div class="container">
+	<section class="container">
 		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px">Skeleton</h1>
+			<h1 class="remove-bottom" style="margin-top: 40px">Getting Started with Neo4j</h1>
 			<h5>Version 1.1</h5>
 			<hr />
 		</div>
@@ -76,12 +70,10 @@
 			</table>
 			
 			<pre>
-				<code class="java">
-				package org.neo4j;
-				
-				public class Foo {
-				}
-				</code>
+				<code class="java">package org.neo4j;
+
+public class Foo {
+}				</code>
 			</pre>
 		</div>
 		<div class="eight columns">
@@ -95,7 +87,54 @@
 		</div>
 
 
-	</div><!-- container -->
+	</section><!-- container -->
+
+	<!-- Page Two
+	================================================== -->
+
+	<section class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">Continue doing it</h1>
+			<h5>Version 1.1</h5>
+			<hr />
+		</div>
+		<div class="eight columns">
+			<h3>About Skeleton?</h3>
+			<p>Skeleton is a small collection of well-organized CSS &amp; JS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, tabs, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
+			<table>
+				<thead>
+					<td>Name</td>
+					<td>Name</td>
+				</thead>
+				<tr>
+					<td>Andreas</td>
+					<td>Michael</td>
+				</tr>
+				<tr>
+					<td>Andreas</td>
+					<td>Michael</td>
+				</tr>
+			</table>
+			
+			<pre>
+				<code class="java">package org.neo4j;
+
+public class Foo {
+}				</code>
+			</pre>
+		</div>
+		<div class="eight columns">
+			<h3>Three Core Principles</h3>
+			<p>Skeleton is built on three core principles:</p>
+			<ul class="square">
+				<li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>
+				<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
+				<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
+			</ul>
+		</div>
+
+
+	</section><!-- container -->
 
 
 
@@ -103,6 +142,11 @@
 	================================================== -->
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="javascripts/tabs.js"></script>
+	
+	<script type="text/javascript" src="highlight/highlight.pack.js"></script>
+	<script type="text/javascript">
+	    hljs.initHighlightingOnLoad();
+	</script>
 
 <!-- End Document
 ================================================== -->
